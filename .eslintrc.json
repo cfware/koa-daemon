@@ -1,0 +1,36 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "strict": ["error", "global"],
+        "no-unused-expressions": "error",
+        "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+        "no-extra-parens": ["error", "all"],
+        "indent": ["error", "tab"],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"],
+        "object-curly-spacing": ["error", "never"],
+        "key-spacing": "error",
+        "comma-dangle": ["error", "always-multiline"],
+        "comma-spacing": "error",
+        "space-before-function-paren": ["error", "never"],
+        "quote-props": ["error", "as-needed"],
+        "max-len": ["error", 100, 4],
+        "id-length": ["error", {"min": 2, "exceptions": ["e"]}],
+        "wrap-iife": ["error", "inside"],
+        "arrow-parens": ["error", "as-needed"],
+        "one-var": ["error", "never"],
+        "brace-style": ["error", "1tbs"],
+        "dot-location": ["error", "property"],
+        "no-underscore-dangle": ["error", {"allowAfterThis": true}]
+    }
+}

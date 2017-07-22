@@ -1,0 +1,38 @@
+{
+  "name": "@cfware/koa-daemon",
+  "version": "0.1.0",
+  "description": "Koa Daemon Base Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js test/*.js && mocha",
+    "test-coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfware/koa-daemon.git"
+  },
+  "author": "Corey Farrell",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    ".eslintrc.json",
+    "test"
+  ],
+  "dependencies": {
+    "koa": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "mocha": "^3.4.2"
+  },
+  "keywords": [
+    "koa",
+    "httpd",
+    "daemon"
+  ],
+  "bugs": {
+    "url": "https://github.com/cfware/koa-daemon/issues"
+  },
+  "homepage": "https://github.com/cfware/koa-daemon#readme"
+}

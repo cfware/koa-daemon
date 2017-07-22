@@ -99,7 +99,7 @@ describe('@cfware/koa-daemon', () => {
 		this.slow(100);
 	});
 
-	it('valid listenAddr functions', function(done) {
+	it('stop during response', function(done) {
 		const daemon = new testDaemon({port: 0});
 
 		daemon

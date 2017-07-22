@@ -1,5 +1,6 @@
 # @cfware/koa-daemon
 
+[![Travis CI][travis-image]][travis-url]
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![MIT][license-image]](LICENSE)
@@ -52,6 +53,8 @@ npm test
 
 [npm-image]: https://img.shields.io/npm/v/@cfware/koa-daemon.svg
 [npm-url]: https://npmjs.org/package/@cfware/koa-daemon
+[travis-image]: https://travis-ci.org/cfware/koa-daemon.svg?branch=master
+[travis-url]: https://travis-ci.org/cfware/koa-daemon
 [downloads-image]: https://img.shields.io/npm/dm/@cfware/koa-daemon.svg
 [downloads-url]: https://npmjs.org/package/@cfware/koa-daemon
 [license-image]: https://img.shields.io/github/license/cfware/koa-daemon.svg

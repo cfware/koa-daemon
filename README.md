@@ -1,5 +1,7 @@
 # @cfware/koa-daemon
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cfware/koa-daemon.svg)](https://greenkeeper.io/)
+
 [![Travis CI][travis-image]][travis-url]
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]

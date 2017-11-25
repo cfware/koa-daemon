@@ -22,9 +22,9 @@
     "koa": "^2.3.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.2",
     "eslint": "^4.3.0",
-    "mocha": "^3.4.2"
+    "mocha": "^4.0.1"
   },
   "keywords": [
     "koa",
